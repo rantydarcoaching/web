@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ranty Dar Coaching | Best Mathematics Coaching in Kasba Kolkata </title>
+
+<meta name="description" content="Looking for the best mathematics coaching in Kasba Kolkata? Ranty Dar Coaching offers expert math tuition for Class 6 to 10 near Ballygunge with concept based learning and exam preparation.">
+
+<meta name="keywords" content="math coaching Kasba Kolkata, best math tutor Ballygunge, mathematics tuition Kasba, class 6 to 10 math coaching Kolkata">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+/* GLOBAL */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f6f8ff;
+color:#333;
+}
+
+/* PREMIUM NAVBAR */
+
+header{
+position:sticky;
+top:0;
+z-index:1000;
+backdrop-filter:blur(12px);
+background:rgba(255,255,255,0.85);
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+}
+
+.container{
+width:90%;
+margin:auto;
+max-width:1200px;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:16px 0;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.logo{
+font-size:22px;
+font-weight:700;
+color:#1e3ea8;
+}
+
+.hamburger{
+display:none;
+background:none;
+border:none;
+font-size:24px;
+cursor:pointer;
+color:#1e3ea8;
+}
+
+@media (max-width:768px){
+.hamburger{
+display:block;
+}
+}
+
+nav{
+transition:max-height 0.3s ease;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+flex-wrap:wrap;
+gap:10px;
+}
+
+nav li{
+margin-left:15px;
+}
+
+nav a{
+text-decoration:none;
+color:#333;
+font-weight:500;
+transition:.3s;
+font-size:14px;
+}
+
+nav a:hover{
+color:#4169E1;
+}
+
+@media (max-width:768px){
+.nav{
+flex-wrap:wrap;
+}
+
+nav{
+display:none;
+position:absolute;
+top:60px;
+left:0;
+width:100%;
+background:rgba(255,255,255,0.95);
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+padding:20px 0;
+}
+
+nav.active{
+display:block;
+}
+
+nav ul{
+flex-direction:column;
+gap:0;
+}
+
+nav li{
+margin-left:0;
+padding:10px 20px;
+}
+
+nav a{
+font-size:16px;
+}
+}
+
+/* HERO */
+
+.hero{
+position:relative;
+background:linear-gradient(135deg,#1e3ea8,#4169E1,#6a8cff);
+background-size:400% 400%;
+animation:gradientFlow 10s ease infinite;
+color:white;
+text-align:center;
+padding:100px 20px;
+overflow:hidden;
+}
+
+@media (max-width:768px){
+.hero{
+padding:70px 20px;
+}
+}
+
+@media (max-width:480px){
+.hero{
+padding:50px 15px;
+}
+}
+
+@keyframes gradientFlow{
+
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+
+}
+
+/* floating glow circles */
+
+.hero::before{
+content:'';
+position:absolute;
+width:500px;
+height:500px;
+background:rgba(255,255,255,0.08);
+border-radius:50%;
+top:-120px;
+left:-120px;
+filter:blur(80px);
+}
+
+.hero::after{
+content:'';
+position:absolute;
+width:400px;
+height:400px;
+background:rgba(255,255,255,0.08);
+border-radius:50%;
+bottom:-100px;
+right:-100px;
+filter:blur(80px);
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:12px;
+}
+
+@media (max-width:768px){
+.hero h1{
+font-size:32px;
+}
+}
+
+@media (max-width:480px){
+.hero h1{
+font-size:24px;
+}
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:28px;
+}
+
+@media (max-width:480px){
+.hero p{
+font-size:16px;
+}
+}
+
+/* HERO BUTTONS */
+
+.hero-buttons{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:10px;
+}
+
+.hero-buttons a{
+
+padding:13px 24px;
+border-radius:30px;
+text-decoration:none;
+color:white;
+font-weight:500;
+display:inline-block;
+transition:.3s;
+font-size:14px;
+
+}
+
+@media (max-width:480px){
+.hero-buttons a{
+padding:10px 16px;
+font-size:12px;
+}
+}
+
+.call{background:#28a745;}
+.whatsapp{background:#25D366;}
+.email{background:#ff6b6b;}
+
+.hero-buttons a:hover{
+transform:translateY(-3px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* SECTIONS */
+
+section{
+padding:80px 20px;
+}
+
+@media (max-width:768px){
+section{
+padding:60px 20px;
+}
+}
+
+@media (max-width:480px){
+section{
+padding:40px 15px;
+}
+}
+
+h2{
+text-align:center;
+color:#1e3ea8;
+margin-bottom:35px;
+font-size:28px;
+}
+
+@media (max-width:480px){
+h2{
+font-size:22px;
+margin-bottom:20px;
+}
+}
+
+/* ABOUT */
+
+.about{
+max-width:800px;
+margin:auto;
+text-align:center;
+font-size:16px;
+line-height:1.8;
+}
+
+@media (max-width:480px){
+.about{
+font-size:14px;
+}
+}
+
+/* COURSES */
+
+.course-grid{
+
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:25px;
+margin-top:40px;
+
+}
+
+@media (max-width:768px){
+.course-grid{
+grid-template-columns:repeat(2,1fr);
+gap:20px;
+}
+}
+
+@media (max-width:480px){
+.course-grid{
+grid-template-columns:1fr;
+gap:15px;
+}
+}
+
+.course{
+
+background:white;
+padding:28px;
+border-radius:12px;
+text-align:center;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+transition:.4s;
+
+}
+
+@media (max-width:480px){
+.course{
+padding:20px;
+}
+}
+
+.course:hover{
+
+transform:translateY(-10px);
+box-shadow:0 20px 40px rgba(0,0,0,0.15);
+
+}
+
+/* SEO TEXT */
+
+.seo-text{
+max-width:900px;
+margin:auto;
+text-align:center;
+margin-top:30px;
+line-height:1.8;
+font-size:15px;
+}
+
+@media (max-width:480px){
+.seo-text{
+font-size:14px;
+}
+}
+
+/* FAQ */
+
+.faq{
+max-width:800px;
+margin:auto;
+}
+
+.faq-item{
+background:white;
+border-radius:8px;
+margin-bottom:12px;
+box-shadow:0 6px 15px rgba(0,0,0,0.08);
+}
+
+.faq-question{
+padding:15px;
+cursor:pointer;
+font-weight:600;
+font-size:16px;
+}
+
+@media (max-width:480px){
+.faq-question{
+padding:12px;
+font-size:14px;
+}
+}
+
+.faq-answer{
+display:none;
+padding:15px;
+border-top:1px solid #eee;
+font-size:14px;
+}
+
+/* FOOTER */
+
+footer{
+background:#061438;
+color:#bbb;
+padding:60px 20px;
+}
+
+@media (max-width:480px){
+footer{
+padding:40px 15px;
+}
+}
+
+.footer-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:35px;
+}
+
+@media (max-width:768px){
+.footer-grid{
+grid-template-columns:repeat(2,1fr);
+gap:25px;
+}
+}
+
+@media (max-width:480px){
+.footer-grid{
+grid-template-columns:1fr;
+gap:20px;
+}
+}
+
+.footer-title{
+color:white;
+margin-bottom:15px;
+font-size:16px;
+}
+
+.footer-links a{
+display:block;
+text-decoration:none;
+color:#aaa;
+margin-bottom:8px;
+font-size:14px;
+}
+
+.footer-links a:hover{
+color:white;
+}
+
+.footer-bottom{
+text-align:center;
+margin-top:30px;
+border-top:1px solid #000000;
+padding-top:18px;
+font-size:12px;
+}
+
+@media (max-width:480px){
+.footer-bottom{
+font-size:11px;
+}
+}
+
+</style>
+
+<script>
+
+function toggleNav(){
+var nav=document.querySelector('nav');
+nav.classList.toggle('active');
+}
+
+function toggleFAQ(id){
+var x=document.getElementById(id);
+if(x.style.display==="block")
+x.style.display="none";
+else
+x.style.display="block";
+}
+
+</script>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="container nav">
+
+<div class="logo">Ranty Dar Coaching</div>
+
+<button class="hamburger" onclick="toggleNav()">
+<i class="fa-solid fa-bars"></i>
+</button>
+
+<nav>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#courses">Classes</a></li>
+<li><a href="#faq">FAQ</a></li>
+</ul>
+</nav>
+
+</div>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<h1>One of the Best Mathematics Coaching in Kasba Kolkata</h1>
+
+<p>Expert Math Tuition for Class 6 to Class 12 near Ballygunge</p>
+
+<div class="hero-buttons">
+
+<a class="call" href="tel:+918918372612">
+<i class="fa-solid fa-phone"></i> Call
+</a>
+
+<a class="whatsapp" href="https://wa.me/918918372612">
+<i class="fa-brands fa-whatsapp"></i> WhatsApp
+</a>
+
+<a class="email" href="mailto:rantydarcoaching@gmail.com">
+<i class="fa-solid fa-envelope"></i> Email
+</a>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section id="about">
+
+<div class="container">
+
+<h2>About Our Mathematics Coaching</h2>
+
+<p class="about">
+
+Ranty Dar Coaching is a trusted mathematics coaching center located in Kasba, Kolkata near Ballygunge. We provide mathematics tuition for students from Class 6 to Class 10 with a focus on concept clarity and logical problem solving. Our teaching method helps students understand mathematics step by step rather than memorizing formulas. With small batches, regular practice exercises, and exam focused preparation, students gain confidence and improve their academic results. Many parents from Kasba, Ballygunge, Gariahat and nearby areas trust our coaching for building strong mathematical foundations.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- COURSES -->
+
+<section id="courses">
+
+<div class="container">
+
+<h2>Mathematics Classes (6–12)</h2>
+
+<div class="course-grid">
+
+<div class="course">
+<h3>Class 6</h3>
+<p>Numbers, fractions and basic geometry.</p>
+</div>
+
+<div class="course">
+<h3>Class 7</h3>
+<p>Integers, algebra, ratio and percentage.</p>
+</div>
+
+<div class="course">
+<h3>Class 8</h3>
+<p>Linear equations and algebra.</p>
+</div>
+
+<div class="course">
+<h3>Class 9</h3>
+<p>Polynomials and coordinate geometry.</p>
+</div>
+
+<div class="course">
+<h3>Class 10</h3>
+<p>Trigonometry and board exam preparation.</p>
+</div>
+
+</div>
+
+<p class="seo-text">
+
+ At Ranty Dar Coaching, we provide structured lessons, comprehensive practice worksheets, and focused exam preparation support for students from Class 6 to 12. Our small batch classes ensure personalized attention, while our proven teaching methodology helps students master difficult topics in algebra, geometry, trigonometry, and more. Whether you're near Ballygunge, Gariahat, Rashbehari, or other areas in South Kolkata, we're here to build strong mathematical foundations and boost your academic performance.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- FAQ -->
+
+<section id="faq">
+
+<div class="container faq">
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<div class="faq-question" onclick="toggleFAQ('a1')">
+Which classes do you teach?
+</div>
+<div class="faq-answer" id="a1">
+We provide mathematics coaching for Class 6 to Class 12 students.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question" onclick="toggleFAQ('a2')">
+Where is the coaching located?
+</div>
+<div class="faq-answer" id="a2">
+Our coaching center is located in Kasba, Kolkata near Ballygunge.
+</div>
+</div>
+
+<div class="faq-item">
+<div class="faq-question" onclick="toggleFAQ('a3')">
+How can I contact for admission?
+</div>
+<div class="faq-answer" id="a3">
+You can contact us using Call, WhatsApp or Email buttons on the website.
+</div>
+</div>
+
+</div>
+
+</section>
+
+<footer id="contact">
+
+<div class="container footer-grid">
+
+<div>
+<h3 class="footer-title">Ranty Dar Coaching</h3>
+<p>Best mathematics coaching in Kasba and Ballygunge Kolkata for Class 6 to 12.</p>
+</div>
+
+<div class="footer-links">
+<h3 class="footer-title">Quick Links</h3>
+<a href="#">Home</a>
+<a href="#about">About</a>
+<a href="#courses">Classes</a>
+<a href="#faq">FAQ</a>
+</div>
+
+<div>
+<h3 class="footer-title">Contact</h3>
+<p><i class="fa-solid fa-phone"></i> +91 8918372612</p>
+<p><i class="fa-solid fa-envelope"></i>  rantydarcoaching@gmail.com</p>
+<p><i class="fa-solid fa-location-dot"></i>  Kasba, Kolkata</p>
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+© 2026 Ranty Dar Coaching | All rights reserved.
+
+</div>
+
+</footer>
+
+</body>
+</html>
